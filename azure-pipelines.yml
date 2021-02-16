@@ -15,7 +15,7 @@ variables:
   containerRegistry: 'mycra34.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/complete/Dockerfile'
   tag: '$(Build.BuildId)'
-  
+  pipeline : 17
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
